@@ -1,15 +1,8 @@
-{
-  "name": "vercel-stable-template",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+export default function Home() {
+  return (
+    <main style={{ padding: 20 }}>
+      <h1>Vercel Template Works</h1>
+      <p>This is the stable base template.</p>
+    </main>
+  );
 }
