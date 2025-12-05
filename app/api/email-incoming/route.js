@@ -6,10 +6,9 @@ export async function POST(req) {
   try {
     const body = await req.json();
 
-    // שמירה בפיירסטור
     await addDoc(collection(db, "requests"), {
       raw: body,
-      createdAt: Date.now()
+      createdAt: Date.now(),
     });
 
     return NextResponse.json({ ok: true });
