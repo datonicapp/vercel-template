@@ -1,4 +1,4 @@
-import { db } from "@/lib/firebase";
+import { db } from "../../lib/firebase";
 
 export const dynamic = "force-dynamic"; // כדי ש-Vercel ירנדר כל פעם
 
